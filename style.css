@@ -1,62 +1,18 @@
 body {
-  background: #f4ecd8;
-  font-family: 'MS Gothic', 'Courier New', Courier, monospace;
-  margin: 0;
-  padding: 0;
-  color: #3a2b1d;
+  background-color: #fff5f5; /* 優しい赤系の背景 */
+  color: #b71c1c;            /* 濃い赤系の文字色 */
 }
-.container {
-  max-width: 600px;
-  margin: 40px auto;
-  background: #fffbe0;
-  border-radius: 0;
-  border: 2px solid #c2b280;
-  box-shadow: 0 0 0 6px #e6d7a7, 0 0 0 12px #c2b280;
-  padding: 32px 24px;
+
+header, footer, nav {
+  background-color: #d32f2f; /* メインの赤色 */
+  color: #fff;               /* 白文字 */
 }
-header {
-  text-align: center;
-  margin-bottom: 36px;
-  border-bottom: 2px dashed #a3906f;
-  padding-bottom: 12px;
+
+a, .btn-primary {
+  background-color: #c62828; /* ボタンやリンクの赤色 */
+  color: #fff;
 }
-header h1 {
-  margin: 0;
-  font-size: 2.2em;
-  color: #aa5b00;
-  letter-spacing: 0.1em;
-  font-family: 'MS Gothic', 'Courier New', Courier, monospace;
-  text-shadow:
-    2px 2px 0 #ffcf7a,
-    4px 4px 0 #c2b280;
-}
-.subtitle {
-  color: #aa5b00;
-  margin-top: 8px;
-  margin-bottom: 0;
-  font-size: 1.1em;
-  font-style: italic;
-}
-.profile, .about {
-  margin-bottom: 28px;
-}
-.profile ul {
-  list-style: square inside;
-  padding: 0;
-}
-.profile li {
-  margin-bottom: 8px;
-  font-size: 1.05em;
-  background: #f9e8b2;
-  border-left: 4px solid #c2b280;
-  padding-left: 8px;
-}
-footer {
-  text-align: center;
-  color: #a3906f;
-  font-size: 0.95em;
-  margin-top: 24px;
-  border-top: 2px dashed #a3906f;
-  padding-top: 12px;
-  font-family: 'MS Gothic', 'Courier New', Courier, monospace;
+
+a:hover, .btn-primary:hover {
+  background-color: #b71c1c;
 }
