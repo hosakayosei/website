@@ -1,18 +1,38 @@
 body {
-  background-color: #fff5f5; /* 優しい赤系の背景 */
-  color: #b71c1c;            /* 濃い赤系の文字色 */
+  background-color: #f4ecd8; /* レトロな黄みがかった背景 */
+  color: #3a2f0b;            /* ダークブラウンの文字色 */
+  font-family: 'Georgia', 'Times New Roman', serif; /* レトロなフォント */
+  letter-spacing: 0.05em;
 }
 
 header, footer, nav {
-  background-color: #d32f2f; /* メインの赤色 */
-  color: #fff;               /* 白文字 */
+  background-color: #d8b97b; /* クラシックな黄土色 */
+  color: #3a2f0b;            /* ダークブラウン */
+  border-bottom: 4px solid #7d5a1e;
+  border-top: 4px solid #7d5a1e;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  text-shadow: 1px 1px 0 #fff9e1;
 }
 
 a, .btn-primary {
-  background-color: #c62828; /* ボタンやリンクの赤色 */
-  color: #fff;
+  background-color: #a47e3c; /* レトロなゴールド系 */
+  color: #fffbe6;
+  border: 2px solid #7d5a1e;
+  border-radius: 6px;
+  box-shadow: 2px 2px 0 #e1c16e;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
 }
 
 a:hover, .btn-primary:hover {
-  background-color: #b71c1c;
+  background-color: #7d5a1e;
+  color: #fffbe6;
+  box-shadow: 2px 2px 0 #a47e3c;
+}
+
+footer {
+  font-size: 0.9em;
+  opacity: 0.9;
+  text-align: center;
 }
